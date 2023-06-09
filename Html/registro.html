@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe-Tec</title>
+    <link rel="shortcut icon" href="../Images/logo.jfif" type="image/x-icon">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="imgs/bx-menu.svg" alt="" class="hamburger">
+        <nav class="menu-navegacion">
+            <a href="../index.html">Inicio</a>
+                <a href="#galeria">Categorias</a>
+                <ul class="categ-nav">
+                    <li class="sub-cat">Apagadores inteligentes</li>
+                    <li class="sub-cat">Camaras de seguridad</li>
+                    <li class="sub-cat">Ventiladores inteligentes</li>
+                    <li class="sub-cat">Refill inteligente</li>
+                    <li class="sub-cat">Robot mesero</li>
+                    <li class="sub-cat">Pantallas led inteligentes</li>
+                </ul>
+            <a href="./iniciarSesion.html">Iniciar sesion</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <div>
+        <h1 class="Texto">
+            <a>
+             Registrar Cuenta
+            </a>
+        </h1>
+    </div>
+    <main>
+        <form  method="post" action="#" class="formulario" id="form">
+            <!---Grupo: Nombre-->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="Nombre" class="formulario__label">Nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Ingresa Nombre" required>
+                   
+                </div>
+        
+            </div><br>
+
+            <!---Grupo: Edad-->
+            <div class="formulario__grupo" id="grupo__Edad">
+                <label for="Edad" class="formulario__label">Fecha de Nacimiento</label>
+                <div class="formulario__grupo-input">
+                <input type="date" class="formulario__input" name="fechaN" id="fechaN" placeholder="Ingresa Fecha de nacimiento" value="Fecha de nacimiento" required>
+<br><br>
+            <!---Grupo: Correo electronico-->
+            <div class="formulario__grupo" id="grupo__Correo Electrónico">
+                <label for="Correo Electrónico" class="formulario__label">Correo Electrónico</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input" name="correo" id="Correo Electrónico" placeholder="correo@correo.com" required>
+                 
+                </div>
+            </div>
+<br>
+            <!---Grupo: Contraseña-->
+            <div class="formulario__grupo" id="grupo__password">
+                <label for="contraseña" class="formulario__label">Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="contrasena" id="contraseña" min="8" max="12" required placeholder="Contraseña">
+                    
+                </div>
+            <!---Ctrl  + ALt y la flecha donde yo quiera-->
+            <!--Terminos y condiciones-->
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label  class="formulario__label" >
+                    <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos" required>
+                    Acepto los términos y condiciones.
+                </label>
+            </div>
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                
+                <button type="submit" class="formulario__btn" name="Registrar" value="Cuenta">Registrar Cuenta</button>
+                <p>¿Ya tienes cuenta? <a href="./iniciarSesion.html">Iniciar Sesion</a></p>
+            </div>
+        </form>
+    </main>
+      <br><br>
+      <div>
+        <br><br>
+    </div>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Cafe-Tec</h2>
+                <p>Somos expertos</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <img src="../Images/facebook.png" alt="">
+                    <p>facebook</p>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <img src="../Images/whatsapp.png" alt="">
+                    <p>Whatsapp</p>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <img src="../Images/instagram.png" alt="">
+                    <p>Instagram</p>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    
+</body>
+</html>
